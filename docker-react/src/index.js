@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import App from './tasks/App';
-import TaskList from './tasks/TaskList';
-import TaskForm from './tasks/TaskForm';
+import App from './App';
+import TaskList from './components/TaskList';
+import TaskForm from './components/TaskForm';
+import TaskEdit from './components/TaskEdit';
 // import TaskEdit from './tasks/TaskEdit'; // (optional if you add edit feature later)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

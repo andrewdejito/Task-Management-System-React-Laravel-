@@ -1,6 +1,6 @@
 import React from "react";
-import TaskList from "./TaskList";
-import TaskForm from "./TaskForm";
+import TaskList from "./components/TaskList";
+import TaskForm from "./components/TaskForm";
 
 function App() {
   const [refresh, setRefresh] = React.useState(false);
